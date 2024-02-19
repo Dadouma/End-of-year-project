@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Login.css";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [pharmacyNumber, setPharmacyNumber] = useState("");
   const [code, setCode] = useState("");
+  console.log(email);
   return (
     <div className="container text-center ">
       <div className="title">
@@ -16,6 +17,7 @@ const Login = () => {
             id="Email"
             placeholder="Email"
             name="Email"
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
         </div>
