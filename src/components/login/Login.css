@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  font-family: "LoewNext";
+  margin-bottom: 6%;
+}
+.title h1 {
+  font-size: 80px;
+  color: #38aa95;
+}
+.input-container {
+  position: relative;
+  margin-bottom: 50px;
+  width: auto;
+}
+.input-container input {
+  width: 40%;
+  padding: 20px 0px 20px 10px;
+  font-size: 16px;
+  border: 1px solid #eaeeed;
+  background-color: #eaeeed;
+  border-radius: 3%;
+}
+.button {
+  background-color: #38aa95;
+  border: none;
+  color: white;
+  padding: 1.5% 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 150%;
+  font-family: "LoewNext";
+}
+.button button {
+  padding: 20px 0px 20px 10px;
+  width: 20%;
+  border-radius: 40%;
+  background-color: #38aa95;
+  border-color: #38aa95;
+}
+@font-face {
+  font-family: LoewNext;
+  src: url(/fonts/LoewNext/LoewNext-ExtraBold-BF63fd638a981de.otf);
+}

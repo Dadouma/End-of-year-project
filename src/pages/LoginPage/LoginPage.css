@@ -1,0 +1,29 @@
+.firstgrid {
+    background-color: #38AA95;
+    text-align: center;
+    height: 119vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+
+.maingrid {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.title {
+    font-size: 280%;
+    font-family: 'LoewNextExtraBold';
+    color: white;
+    margin-top: 15%;
+}
+
+@font-face {
+    font-family: LoewNextExtraBold;
+    src: url(/fonts/LoewNext/LoewNext-ExtraBold-BF63fd638a981de.otf);
+}

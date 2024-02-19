@@ -1,9 +1,13 @@
+import { useState } from "react";
 import "./Login.css";
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [pharmacyNumber, setPharmacyNumber] = useState("");
+  const [code, setCode] = useState("");
   return (
-    <div>
+    <div className="container text-center ">
       <div className="title">
-        <h2>SIGN IN</h2>
+        <h1>SIGN IN</h1>
       </div>
       <form>
         <div className="input-container">
@@ -35,7 +39,9 @@ const Login = () => {
         </div>
 
         <div>
-          <button type="submit">Login</button>
+          <button type="submit" className="button">
+            LOGIN
+          </button>
         </div>
       </form>
     </div>
